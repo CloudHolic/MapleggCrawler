@@ -17,6 +17,6 @@
         </StackPanel>
         <TextBlock Text="{Binding Nickname, StringFormat='닉네임: {0}'}" Margin="0,20,0,0"/>
         <TextBlock Text="{Binding Level, StringFormat='레벨: {0}'}" Margin="0,5,0,0"/>
-        <TextBlock Text="{Binding Mulung, StringFormat='무릉: {0}'}" Margin="0,5,0,0"/>
+        <TextBlock Text="{Binding Mulung, StringFormat='무릉: {0}층'}" Margin="0,5,0,0"/>
     </StackPanel>
 </Window>
