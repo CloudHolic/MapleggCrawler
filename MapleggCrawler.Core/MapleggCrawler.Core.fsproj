@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0-windows</TargetFramework>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<UseWPF>true</UseWPF>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Include="Parser.fs" />
+		<Compile Include="MainViewModel.fs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Elmish.WPF" Version="4.0.0-beta-42" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Update="FSharp.Core" Version="6.0.3" />
+	</ItemGroup>
+
+</Project>
